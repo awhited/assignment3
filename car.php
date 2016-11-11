@@ -1,7 +1,9 @@
 <? php
 
-  public class car extends auto {
+  class car extends auto {
 
-
+    public $make;
+    public $model;
+    public $year; 
   }
 ?>

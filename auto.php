@@ -24,7 +24,12 @@
     }
     
     public function __toString() {
-      
+    
+      $first = "This vehicle is a  " . $this->getYear() . " ";
+      $second =   $this->getMake() . " " . $this ->getModel();
+      $third = "With ONLY " . $this->getMilage() . " miles!";
+
+      return $first . $second . "<br>" . $third . "<br>";
 
     } 
     
