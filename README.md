@@ -1,7 +1,13 @@
+## Yo Matt
+I got stuck with some config issues and was caught spending my time allocated to styling and such to trying to get the php to run. I thought this was pretty creative and useful. I made car the main class and extended it with engine and chassis. then I wrote the toStrings such that I could psudo-recursively call them.  
+
+
+
 # assignment3
 Repo for assignment 3, Object Oriented PHP
 
 # Instructions
+
 
 ### assignment3.php
 
